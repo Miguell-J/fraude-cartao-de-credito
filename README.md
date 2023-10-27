@@ -1,5 +1,7 @@
 ## Classificação de Fraude com TensorFlow
 
+<img src="https://www.modalmais.com.br/wp-content/uploads/2020/02/fraude_cartoes.jpg"/>
+
 Este repositório contém um exemplo de um modelo de classificação binária para detectar fraudes em transações de cartão de crédito usando TensorFlow e Keras.
 
 ## Pré-requisitos
@@ -23,6 +25,8 @@ O código realiza o seguinte:
 
 - Carrega os dados de transações de cartão de crédito do arquivo "creditcard.csv" e realiza limpeza dos dados, removendo valores ausentes.
 
+<img src="creditcard table.png"/>
+
 - Divide os dados em recursos (X) e rótulos (Y), onde X contém as informações da transação e Y contém a classe (fraude ou não fraude).
 
 - Divide os dados em conjuntos de treinamento e teste usando train_test_split.
@@ -35,11 +39,17 @@ O código realiza o seguinte:
 
 - Treina o modelo usando os dados de treinamento com um número especificado de épocas.
 
+<img src="creditcard model.png"/>
+
 - Avalia o modelo nos conjuntos de treinamento e teste para medir o desempenho.
 
 - Plota a curva de perda e a curva de acurácia durante o treinamento.
 
+<img src="creditcard metrics.png"/>
+
 - Realiza previsões no conjunto de teste e compara os rótulos reais com as previsões, plotando um gráfico de dispersão para visualização.
+
+<img src="creditcard preds.png"/>
 
 - Usa um limite (threshold) para transformar as probabilidades em rótulos.
 
