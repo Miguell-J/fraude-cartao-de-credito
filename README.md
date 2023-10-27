@@ -57,7 +57,7 @@ O código realiza o seguinte:
 Para melhorar o desempenho do modelo, você pode considerar as seguintes melhorias:
 
 - Ajustar hiperparâmetros, como o número de camadas, unidades ocultas e taxa de aprendizado.
-- Experimentar diferentes funções de perda, como "binary_crossentropy".
+- Experimentar diferentes funções de perda.
 - Balancear classes se houver desequilíbrio entre fraudes e transações normais.
 - Realizar engenharia de recursos para criar novas features relevantes.
 
