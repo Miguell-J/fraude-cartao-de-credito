@@ -35,7 +35,7 @@ O código realiza o seguinte:
 
 - Define um modelo de rede neural sequencial com camadas densas e função de ativação "relu" para as camadas ocultas e "sigmoid" para a camada de saída.
 
-- Compila o modelo com otimizador "Adam" e função de perda "mae" (Mean Absolute Error) para fins de demonstração, embora "binary_crossentropy" seja mais comum para problemas de classificação binária.
+- Compila o modelo com otimizador "Adam" e função de perda "binary_crossentropy".
 
 - Treina o modelo usando os dados de treinamento com um número especificado de épocas.
 
